@@ -1,0 +1,13 @@
+package practice.scope;
+
+public class Student {
+	
+	int rollNo;
+	String stuName;
+	char grade;
+	
+	void print() {
+		System.out.println("Roll No: "+rollNo+"\nStudent Name: "+stuName+"\nGrade: "+grade);
+	}
+
+}

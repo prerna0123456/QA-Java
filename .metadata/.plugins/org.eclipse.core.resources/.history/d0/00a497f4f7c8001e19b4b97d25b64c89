@@ -1,0 +1,29 @@
+package classes.ten;
+
+import java.util.Scanner;
+
+public class DemoBook {
+
+	public static void main(String[] args) {
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter how many books you would like to create");
+		int numOfBooks=sc.nextInt();
+		String nm="";
+		String isbn="";
+		
+		
+		for(int i=0; i<numOfBooks;i++) {
+			System.out.println("Enter a book name: ");
+			nm=sc.nextLine();
+			
+			System.out.println("Enter book's ISBN: ");
+			isbn=sc.nextLine();
+			
+			
+			Book b1=new Book();
+		}
+	}
+	
+	
+
+}

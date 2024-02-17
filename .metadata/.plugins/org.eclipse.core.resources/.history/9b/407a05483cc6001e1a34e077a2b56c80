@@ -1,0 +1,5 @@
+package homework.sessions;
+
+public class Circle implements Drawable {
+
+}

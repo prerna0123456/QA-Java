@@ -1,0 +1,31 @@
+package classes.ten;
+
+public class Books<K,V> {
+	
+	K numISBN;
+	V bookName;
+	public Books() {
+		super();
+	}
+	public Books(K numISBN, V bookName) {
+		super();
+		this.numISBN = numISBN;
+		this.bookName = bookName;
+	}
+	public K getNumISBN() {
+		return numISBN;
+	}
+	public void setNumISBN(K numISBN) {
+		this.numISBN = numISBN;
+	}
+	public V getBookName() {
+		return bookName;
+	}
+	public void setBookName(V bookName) {
+		this.bookName = bookName;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,15 @@
+package homework.sessions;
+
+public class SessionFour1 {
+
+	public static void main(String[] args) {
+		for(int i=0;i<100;i=i+4) {
+			if(i==0)
+				System.out.print(1);
+			else
+				System.out.print(" "+i);
+		}
+			
+	}
+
+}

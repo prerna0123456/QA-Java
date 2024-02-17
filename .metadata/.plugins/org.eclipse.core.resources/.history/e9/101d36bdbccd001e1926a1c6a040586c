@@ -1,0 +1,10 @@
+package pracice.files;
+
+public class DemoFileFunc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

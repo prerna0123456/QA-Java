@@ -1,0 +1,16 @@
+package classes.ten;
+
+public class Book {
+	
+	String numISBN;
+	String bookName;
+	public Book() {
+		super();
+	}
+	public Book(String numISBN, String bookName) {
+		super();
+		this.numISBN = numISBN;
+		this.bookName = bookName;
+	}
+	
+}

@@ -1,0 +1,21 @@
+package classes.ten;
+
+public class CompairUtils {
+
+	public static void main(String[] args) {
+		Pair<String, Integer> u1=new Pair<>("Excel",101);
+		Pair<String, Integer> u2=new Pair<>("Excel",101);
+		System.out.println(compare(u1,u2));
+		
+	}
+	public static<K,V> boolean compare(Pair<K,V> p1, Pair<K,V> p2) {
+		if((p1.getKey()).equals(p2.getKey()) && (p1.getVal().equals(p2.getVal()))) {
+			return true;
+		}
+		else {
+			return false;
+		}
+			
+	}
+
+}

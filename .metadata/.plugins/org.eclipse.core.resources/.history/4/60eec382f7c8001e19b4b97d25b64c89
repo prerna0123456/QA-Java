@@ -1,0 +1,11 @@
+package classes.ten;
+
+public class Books {
+	
+	String numISBN;
+	String bookName;
+	public Books() {
+		super();
+	}
+	
+}

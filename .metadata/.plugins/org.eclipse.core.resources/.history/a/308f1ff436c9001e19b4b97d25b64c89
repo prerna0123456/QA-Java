@@ -1,0 +1,12 @@
+package kg.programs;
+
+public class SumAvgEleArr {
+
+	public static void main(String[] args) {
+		int[] a=new int[6];
+		
+		
+		
+	}
+
+}

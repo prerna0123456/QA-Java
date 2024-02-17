@@ -1,0 +1,12 @@
+package homework.sessions;
+
+public class DemoDrawable {
+
+	public static void main(String[] args) {
+		
+		DrawRectangle r=new DrawRectangle();
+		r.draw();
+				
+	}
+
+}

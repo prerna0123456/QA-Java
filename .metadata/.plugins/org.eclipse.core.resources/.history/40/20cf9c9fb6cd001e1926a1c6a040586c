@@ -1,0 +1,7 @@
+package compare.classes;
+
+import java.util.Comparator;
+
+public class BookComparatorName implements Comparator<T> {
+
+}

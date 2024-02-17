@@ -1,0 +1,5 @@
+package homework.sessions;
+
+public class DrawTriangle implements Drawable {
+
+}
